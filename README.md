@@ -101,30 +101,20 @@ Then open the folder in VSCode.
 
 * * *
 
-## 
 
-.
-
-* * *
 
 ## 📌 Results (Actual Metrics)
-
-### **✔ Test Set Performance**
-
-## 
-
-| Metric | Value |
-| --- | --- |
-| **Accuracy** | **90.54%** |
-| **AUC** | **0.9652** |
-| **Loss** | 0.4625 |
 
 
 ### **✔ Classification Report**
 
-## 
-
-              `precision    recall  f1-score   support  NORMAL          0.97       0.77      0.86       234 PNEUMONIA       0.88       0.98      0.93       390  accuracy                            0.91       624 macro avg       0.92       0.88      0.89       624 weighted avg    0.91       0.91      0.90       624`
+| Class           | Precision | Recall | F1-Score | Support |
+|-----------------|-----------|--------|----------|--------|
+| NORMAL          | 0.97      | 0.77   | 0.86     | 234    |
+| PNEUMONIA       | 0.88      | 0.98   | 0.93     | 390    |
+| **Accuracy**     | -         | -      | 0.91     | 624    |
+| **Macro Avg**    | 0.92      | 0.88   | 0.89     | 624    |
+| **Weighted Avg** | 0.91      | 0.91   | 0.90     | 624    |
 
 
 
